@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>برنامج ألعابي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .game-card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+    }
+    .game-card:hover {
+      transform: scale(1.05);
+      background: rgba(255,255,255,0.2);
+    }
+    .game-card h3 {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.4);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎮 برنامج ألعابي</header>
+
+
+  <footer>© 2025 برنامج الألعابي</footer>
+
+ <a href="game.rar" download>
+  <div class="game-card">
+    <h3>⬇️ لعبتي</h3>
+    <p>تحميل اللعبة</p>
+  </div>
+</a>
+
+</body>
+</html>
